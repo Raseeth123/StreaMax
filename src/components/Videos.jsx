@@ -4,7 +4,6 @@ import VideoCard from './VideoCard';
 import ChannelCard from './ChannelCard';
 
 const Videos = ({ videos, direction }) => {
-  console.log(videos);
   return (
     <Stack
       direction={direction || "row"}
